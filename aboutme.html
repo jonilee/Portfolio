@@ -1,41 +1,126 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Page Title</title>
- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <title>Joni's Portfolio</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<style>
+.item-group {
+  margin-top: 20px;}
+</style>
   </head>
-  <body>
+    <body>
+      <div class="container">
+        <h1 class="text-center">Welcome, I'm Joni</h1>
+      <hr>
+        <p><h3>About Me</h3>
+              <br>
+              	   I am a rising junior at Lick-Wilmerding High School in San Francisco.
+                At school, I am the fundraising coordinator for the Junior State of America club and am an avid attendee to ASIA club.
+                I have been a Girl Scout for the past 11 years and am working towards earning my Gold Award.</br>
+              <br>I like to bake with or for my friends and family.
+              Ultimately sharing the treats with people I care about put a smile on my face when my treats make them smile.
+              <br>I dislike cloudy and rainy weather because I find myself feeling gloomy because of it during the winter months.
+                <br>
+              <br>Fun facts!
+              <br>*My favorite tv shows include any murder-cop-mysteries, comedies, and cooking shows.
+              <br>*I like to build Lego sets because I believe building/playing with Legos is an activity for all ages.
+              <br>*I like to cook and bake with or for my friends and family
+              <br>
+              <br>My favorite webpages include:
+              <a href="https://www.pinterest.com/">Pinterest</a>
+              <a href="https://www.netflix.com/">Netflix</a>
+              <a href="https://www.instagram.com/">Instagram</a>
+              <a href="https://www.youtube.com/">Youtube</a>
+              <br>(Note: My favorite channels on Youtube include mugumogu and How To Cake It)
+              <br>
+        <hr>
+        </p>
 
-      <h2>About Me</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <p>Column 1</p>
+            <button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-option-vertical"></span>Click here for more info</button>
+            <div class="row item-group">
+              <ul>
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+              </ul>
+            </div>
+        </div>
+           <div class="col-md-4">
+            <p>Column 2</p>
+               <button type="button" class="btn btn-default btn-sm"> <span class="glyphicon glyphicon-option-vertical"></span>Click here for more info</button>
+             <div class="row item-group">
+              <ul>
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+              </ul>
+            </div>
+        </div>
+          <div class="col-md-4">
+            <p>Column 3</p>
+            <button type="button" class="btn btn-default btn-sm"><span class="glyphicon glyphicon-option-vertical"></span>Click here for more info</button>
 
-      <br>
-      	   Hi, my name is Joni Lee. I am a rising junior at Lick-Wilmerding High School in San Francisco.
-        At school, I am the fundraising coordinator for the Junior State of America club and am an avid attendee to ASIA club.
-        I have been a Girl Scout for the past 11 years and am working towards earning my Gold Award.</br>
-      <br>I like to bake with or for my friends and family.
-      Ultimately sharing the treats with people I care about put a smile on my face when my treats make them smile.
-      <br>I dislike cloudy and rainy weather because I find myself feeling gloomy because of it during the winter months.
-        <br>
-      <br>Fun facts!
-      <br>*My favorite tv shows include any murder-cop-mysteries, comedies, and cooking shows.
-      <br>*I like to build Lego sets because I believe building/playing with Legos is an activity for all ages.
-      <br>*I like to cook and bake with or for my friends and family
-      <br>
-      <br>My favorite webpages include:
-      <a href="https://www.pinterest.com/">Pinterest</a>
-      <a href="https://www.netflix.com/">Netflix</a>
-      <a href="https://www.instagram.com/">Instagram</a>
-      <a href="https://www.youtube.com/">Youtube</a>
-      <br>(Note: My favorite channels on Youtube include mugumogu and How To Cake It)
+            <div class="row">
+              <ul class="list-group">
+                <li class= "list-group-item list-group-item-info">Item 1</li>
+                <li class= "list-group-item list-group-item-info"> Item 2</li>
+                <li class= "list-group-item">Item 3</li>
+              </ul>
+            </div>
 
-      <h3>Push Button Circuit</h3>
-      <img src="IMG_6424.JPG" alt="Push Button Circuit" style="width:320px;height:240px;">
-      <br>
-            This is an image of a simple circuit where the LED is activated by the manual push of a button.
+          </div>
+        </div>
+
+
+      <!-- Dropdown Button( can be inplimented within the "Click here for more info button"-just copy and paste) -->
+      <!--   Copy from here -->
+        <div class="row list-group">
+              <div class="dropdown">
+                <button class="btn btn-default dropdown-toggle"
+          type="button" data-toggle="dropdown">Dropdown Example
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Sub-Menu 1</a></li>
+                   <li><a href="#">Sub-Menu 1</a></li>
+                   <li><a href="#">Sub-Menu 1</a></li>
+                </ul>
+              </div>
+          </div>
+      <!-- To here -->
+      </div>
+
+<!--Push Button Circuit-->
+<h3>Push-Button LED Circuit</h3>
+<br> This is an image of a simple circuit where the LED is activated by the manual push of a button.
+<br>(Hoverover image to enlarge.)
+<br>
+<img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="IMG_6424.jpg" alt="Circuit" width="640" height="480">
+
+<script>
+function bigImg(x) {
+    x.style.height = "360px";
+    x.style.width = "480px";
+}
+
+function normalImg(x) {
+    x.style.height = "240px";
+    x.style.width = "320px";
+}
+</script>
+
+<!-- Automatic Popup Box GOES AT THE END OF CODE!-->
+    <script type="text/javascript">
+    alert("Hello, Welcome to my website that houses all of my creativity.");
+    </script>
+
 <script
-  src="https://code.jquery.com/jquery-3.2.1.min.js"
-  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-  crossorigin="anonymous"></script>
+    src="https://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
   </body>
 </html>
